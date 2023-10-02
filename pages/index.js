@@ -37,6 +37,9 @@ const HomePage = () => {
            <li>
             <a href="login" className='text-2xl font-bold'>login</a>
           </li>
+          <li>
+            <a href="about" className='text-2xl font-bold'>about</a>
+          </li>
       <h1>Página Inicial</h1>
       <InvoiceForm onSubmit={handleFormSubmit} editInvoice={editingInvoice} onDelete={handleDeleteButtonClick} />
       <h2>Notas Fiscais Adicionadas/Editadas:</h2>
