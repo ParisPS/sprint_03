@@ -1,4 +1,4 @@
-SPRINT 03 Advanced Programming & Mobile Dev
+* SPRINT 03 Advanced Programming & Mobile Dev
 Prof. João Carlos Lima e Silva Turma 3ECA
 
 Integrantes do Grupo:
