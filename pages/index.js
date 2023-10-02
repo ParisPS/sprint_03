@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import InvoiceForm from '../src/components/InvoiceForm';
+import 'pages/login.js';
 
 const HomePage = () => {
   const [invoices, setInvoices] = useState([]);
@@ -33,6 +34,9 @@ const HomePage = () => {
 
   return (
     <div>
+           <li>
+            <a href="login" className='text-2xl font-bold'>login</a>
+          </li>
       <h1>Página Inicial</h1>
       <InvoiceForm onSubmit={handleFormSubmit} editInvoice={editingInvoice} onDelete={handleDeleteButtonClick} />
       <h2>Notas Fiscais Adicionadas/Editadas:</h2>
